@@ -9,6 +9,7 @@ import { SidebarComponent } from './share/sidebar/sidebar.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { Graficas1Component } from './pages/graficas1/graficas1.component';
 import { ProgressComponent } from './pages/progress/progress.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ProgressComponent } from './pages/progress/progress.component';
     SidebarComponent,
     DashboardComponent,
     Graficas1Component,
-    ProgressComponent
+    ProgressComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule
