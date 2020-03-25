@@ -6,6 +6,9 @@ import { BreadcrumbsComponent } from './share/breadcrumbs/breadcrumbs.component'
 import { HeaderComponent } from './share/header/header.component';
 import { NopagefoundComponent } from './share/nopagefound/nopagefound.component';
 import { SidebarComponent } from './share/sidebar/sidebar.component';
+import { DashboardComponent } from './pages/dashboard/dashboard.component';
+import { Graficas1Component } from './pages/graficas1/graficas1.component';
+import { ProgressComponent } from './pages/progress/progress.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +16,10 @@ import { SidebarComponent } from './share/sidebar/sidebar.component';
     BreadcrumbsComponent,
     HeaderComponent,
     NopagefoundComponent,
-    SidebarComponent
+    SidebarComponent,
+    DashboardComponent,
+    Graficas1Component,
+    ProgressComponent
   ],
   imports: [
     BrowserModule
